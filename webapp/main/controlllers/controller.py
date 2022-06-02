@@ -7,7 +7,7 @@ from main.models.elemento import Elemento
 from flask_sqlalchemy import SQLAlchemy
 
 def index():
-    return "ok"
+    return "<h1>API Coletor RSSI</h1>"
 
 def criar_coleta():
     return "ok + str(coleta_id)"
